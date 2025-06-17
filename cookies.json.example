@@ -1,0 +1,8 @@
+[
+  {
+    "name": "cookie_name",
+    "value": "cookie_value",
+    "domain": ".example.com",
+    "path": "/"
+  }
+] 

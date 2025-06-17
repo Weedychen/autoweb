@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  autoweb:
+    build: .
+    container_name: autoweb
+    volumes:
+      - ./downloads:/app/downloads
+    environment:
+      - TZ=Asia/Shanghai
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G 

@@ -1,0 +1,15 @@
+{
+  "name": "v01",
+  "version": "1.0.0",
+  "description": "1. 确保已安装 Node.js 环境（建议使用 Node.js 18 或更高版本）\r 2. 双击 `install.bat` 检查环境\r 3. 双击 `run.bat` 运行程序\r 4. 程序会自动执行以下操作：\r    - 登录舆情系统\r    - 导出指定主题的数据\r    - 自动处理下载的文件\r    - 打开导出文件夹",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.53.0"
+  }
+}
