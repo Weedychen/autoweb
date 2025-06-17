@@ -1,7 +1,7 @@
 // 基础配置
 const BASE_CONFIG = {
   // 下载路径配置
-  DOWNLOAD_PATH: 'C:\\Users\\92175\\Downloads\\Compressed',
+  DOWNLOAD_PATH: 'C:\\Users\\username\\Downloads\\Compressed',
   EXPORT_FOLDER_NAME: 'yuqing_export',
   
   // 文件命名配置
@@ -112,54 +112,18 @@ const SELECTORS = {
   }
 };
 
-// Cookie配置
+// Cookie配置示例
 const COOKIES = [
   {
     name: 'HMACCOUNT',
-    value: 'AE7F37DEEF15A4FB',
+    value: 'YOUR_HMACCOUNT_VALUE',
     domain: '.yuqing.nybkz.com',
     path: '/',
   },
   {
     name: 'Hm_lpvt_61cd73eb7a09cc04e7bc443b1ef8c1ca',
-    value: '1749456597',
+    value: 'YOUR_HM_LPVT_VALUE',
     domain: '.yuqing.nybkz.com',
-    path: '/',
-  },
-  {
-    name: 'Hm_lvt_61cd73eb7a09cc04e7bc443b1ef8c1ca',
-    value: '1749456312',
-    domain: '.yuqing.nybkz.com',
-    path: '/',
-  },
-  {
-    name: '_gsdataCL',
-    value: 'WzAsIjE4MDAxNzE5MDA4IiwiMjAyNTA2MDkxNjA1NTciLCI2ZGJkZTM0NWU3N2I1NTRmOWFkNGYwZTNiNmE0NTQyNyIsMzk5Njg0XQ%3D%3D',
-    domain: '.nybkz.com',
-    path: '/',
-  },
-  {
-    name: '_gsdataOL',
-    value: '399684%3B18001719008%3B%7B%220%22%3A%22%22%2C%221%22%3A%22%22%2C%222%22%3A%22%22%2C%223%22%3A%22%22%2C%224%22%3A%22%22%2C%225%22%3A%22%22%2C%226%22%3A%22%22%2C%227%22%3A%22%22%2C%228%22%3A%22%22%2C%229%22%3A%22%22%2C%2299%22%3A%2220250609%22%7D%3Bcc0a356d6c2ca05502839f805fc90de8',
-    domain: '.nybkz.com',
-    path: '/',
-  },
-  {
-    name: 'acw_tc',
-    value: '0a0966c217494582558971941ecd457e78308c4f573c8c3b88b782cf575a81',
-    domain: 'yuqing.nybkz.com',
-    path: '/',
-  },
-  {
-    name: 'sajssdk_2015_cross_new_user',
-    value: '1',
-    domain: '.nybkz.com',
-    path: '/',
-  },
-  {
-    name: 'sensorsdata2015jssdkcross',
-    value: '%7B%22distinct_id%22%3A%22399684%22%2C%22first_id%22%3A%2219753b8d78d13f2-07d9dd061c3bd6c-26011e51-3686400-19753b8d78e1ddc%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTk3NTNiOGQ3OGQxM2YyLTA3ZDlkZDA2MWMzYmQ2Yy0yNjAxMWU1MS0zNjg2NDAwLTE5NzUzYjhkNzhlMWRkYyIsIiRpZGVudGl0eV9sb2dpbl9pZCI6IjM5OTY4NCJ9%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22399684%22%7D%2C%22%24device_id%22%3A%2219753b8d78d13f2-07d9dd061c3bd6c-26011e51-3686400-19753b8d78e1ddc%22%7D',
-    domain: '.nybkz.com',
     path: '/',
   }
 ];

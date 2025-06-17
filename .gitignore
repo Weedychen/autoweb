@@ -37,4 +37,17 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-execution_records.json 
+execution_records.json
+config.js
+.env
+*.env
+.env.*
+!.env.example
+
+# Sensitive data
+*credentials*
+*secret*
+*password*
+*key*
+*token*
+*cookie* 
